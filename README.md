@@ -3,7 +3,8 @@
 
 Girls in ICT 2023 Hackathon
 
-We have created an automated pigisty that can adapt to various climate changes.In addition, it is possible to watch live streaming and control the sensor in the pigsty using a web app.
+We have created an automated pigisty that can adapt to various climate changes.
+In addition, it is possible to watch live streaming and control the sensor in the pigsty using a web app.
 It was made to adapt to heat wave, fire, flood, and drought.
 
 ![diagram](diagram.png)
