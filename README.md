@@ -9,7 +9,7 @@ It was made to adapt to heat wave, fire, flood, and drought.
 
 ![diagram](diagram.png)
 
-Main function
+#### Main function
 1. Open the water tank using the servo motor after detecting rain(drought).
 2. Turn on the water pump on the roof after detecting the temperature(heat wave).
 3. When a flood is detected, use a stepping motor to close the water shield(flood).
