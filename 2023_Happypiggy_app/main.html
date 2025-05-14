@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy-piggy-app</title>
+  </head>
+  <body>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Happy piggy</h1>
+
+      <div class="screen-header__title">
+        <span><i class="fas fa-piggy-bank"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="happy-piggy">
+        <h6 class="piggy__streaming">Live Streaming...</h6>
+        <span>
+          <iframe class="streaming" src="http://192.168.207.211:8080/stream">
+          </iframe>
+        </span>
+      </div>
+      <div class="find-icontext">
+        <div>
+          <span>Water Plate</span>
+        </div>
+        <div>
+          <span>Water Pump</span>
+        </div>
+      </div>
+
+      <div class="find-icons">
+        <div class="find-icons__icons">
+          <button class="button" type="submit" value="on" onclick="plate_on">
+            <i class="fas fa-door-open fa-border"></i>
+          </button>
+
+          <span>on</span>
+        </div>
+        <div class="find-icons__icons">
+          <button class="button" type="submit" value="off" onclick="plate_off">
+            <i class="fas fa-door-closed fa-border"></i>
+          </button>
+          <span>off</span>
+        </div>
+        <div class="find-icons__icons">
+          <button class="button" type="submit" value="off" onclick="pump_on">
+            <i class="fas fa-tint fa-border"></i>
+          </button>
+          <span>on</span>
+        </div>
+        <div class="find-icons__icons">
+          <button class="button" type="submit" value="off" onclick="pump_off">
+            <i class="fas fa-tint-slash fa-border"></i>
+          </button>
+          <span>off</span>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    >
+      function plate_on() {
+          fetch('/forward');
+      }
+      function plate_off() {
+          fetch('/backward');
+      }
+      function pump_on() {
+          fetch('/on');
+      }
+      function pump_off() {
+          fetch('/off');
+      }
+    </script>
+  </body>
+</html>
