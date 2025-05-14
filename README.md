@@ -22,4 +22,4 @@ The file related to the web app is placed separately from the sensor action file
 - Embedded System : Raspberry pi 4
 - IDE: Vscode 
 - hardware: Pi Camera Module/ JT-180A DC 6V 12V (Water pump) / Servo motor /  Stepping motor & driver / DFT11(Temperature and humidity sensor)/ Relay module/ Flame detection sensor/ Water level sensor/ PCF8591 
-- software: Python (3.9.2) / FLASK
+- software: Python (3.9.2) / FLASK/ UV4L
