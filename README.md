@@ -6,7 +6,7 @@ Girls in ICT 2023 Hackathon
 We have created an automated pigisty that can adapt to various climate changes.In addition, it is possible to watch live streaming and control the sensor in the pigsty using a web app.
 It was made to adapt to heat wave, fire, flood, and drought.
 
-![diagram](THE_FISH_TANK.png)
+![diagram](diagram.png)
 
 Main function
 1. Open the water tank using the servo motor after detecting rain(drought).
